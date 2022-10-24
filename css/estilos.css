@@ -56,7 +56,7 @@
 #contenido{
     height: 400px;
     width: 600px;
-    background-color: #c25048;
+    background-color: #0d1425;
     margin: 0.5em auto;
     border-radius: 0.5em;
     color: rgb(226, 241, 255);
@@ -74,6 +74,21 @@
     width: 36%;
     margin: 0.5em;
     float: right;
+}
+#txtEnganche{
+    background-color:white;
+    color: black;
+}
+#txtFinanciar{
+    background-color:white;
+    color: black;
+}
+#one{
+    float: left;
+    margin-left: 30px;
+}
+#btnCalular{
+    margin-right: 20px;
 }
 ul{
     text-align: center;
