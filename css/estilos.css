@@ -76,12 +76,10 @@
     float: right;
 }
 #txtEnganche{
-    background-color:white;
-    color: black;
+    margin-right: 80px;
 }
 #txtFinanciar{
-    background-color:white;
-    color: black;
+    margin-right: 120px;
 }
 #one{
     float: left;
