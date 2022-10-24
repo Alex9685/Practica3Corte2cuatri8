@@ -1,0 +1,88 @@
+/* Selector Unversal */
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Selector de id*/
+.contenedor{
+    
+    width: 1200px;
+    height: 1800px;
+    background-color: #2e2c2a;
+    max-width: 0 auto;
+    justify-content: center;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+}
+#menuOp{
+    display: flex;
+    flex-direction: row;
+    height: 2.5%;
+    width: 90%;
+    background-color: rgb(231, 183, 128) ;
+    margin: 1em auto;
+    border-radius: 0.5em;
+    padding-top: 15px;
+
+}
+.pie{
+    height: 50px;
+    width: 1200px;
+    background-color: #965b24;
+    margin: 1.5 em;
+    color: #ddd;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+}
+#encabezado{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 7%;
+    width: 90%;
+    background-color: #557c54;
+    margin: 1em auto;
+    padding-top: 20px;
+    border-radius: 0.5em;
+    color: rgb(255, 247, 247);
+    
+
+}
+#contenido{
+    height: 400px;
+    width: 600px;
+    background-color: #c25048;
+    margin: 0.5em auto;
+    border-radius: 0.5em;
+    color: rgb(226, 241, 255);
+    flex-wrap: wrap;
+}
+#cot1{
+    height: 70%;
+    width: 61%;
+    margin: 0.5em auto;
+    float: left;
+}
+
+#cot2{
+    height: 70%;
+    width: 36%;
+    margin: 0.5em;
+    float: right;
+}
+ul{
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
